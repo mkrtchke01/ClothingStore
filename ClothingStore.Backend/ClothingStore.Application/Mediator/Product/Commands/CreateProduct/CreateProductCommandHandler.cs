@@ -5,12 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using ClothingStore.Application.Interfaces;
+using ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Validation;
 using ClothingStore.Domain;
+using FluentValidation;
 using MediatR;
 
 namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct
 {
-    internal class CreateProductCommandHandler : IRequestHandler<CreateProductCommand>
+    internal class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
     {
         private readonly IClothingStoreDbContext _context;
 
@@ -18,7 +20,7 @@ namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct
         {
             _context = context;
         }
-        public async Task<Unit> Handle(CreateProductCommand request, CancellationToken cancellationToken)
+        public async Task<int> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
             var product = new Domain.Product()
             {
@@ -68,9 +70,9 @@ namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct
                 };
             }
 
-            _context.Products.Update(product);
+            await _context.Products.AddAsync(product, cancellationToken);
             await _context.SaveChangesAsync(cancellationToken);
-            return Unit.Value;
+            return product.ProductId;
         }
     }
 }

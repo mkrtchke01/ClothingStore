@@ -1,5 +1,7 @@
-﻿using ClothingStore.Application.Mediator.Product.Commands.CreateProduct;
+﻿using Azure.Core;
+using ClothingStore.Application.Mediator.Product.Commands.CreateProduct;
 using ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Request;
+using ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Validation;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -19,11 +21,17 @@ namespace ClothingStore.WepApi.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateProduct(CreateProductRequest createProductRequest)
         {
-            var product = await _mediator.Send(new CreateProductCommand
+            var validator = new CreateProductRequestValidator();
+            var result = await validator.ValidateAsync(createProductRequest);
+            if (!result.IsValid)
+            {
+                return BadRequest(result.Errors);
+            }
+            var productId = await _mediator.Send(new CreateProductCommand
             {
                 CreateProductRequest = createProductRequest
             });
-            return Ok();
+            return Ok(productId);
         }
     }
 }

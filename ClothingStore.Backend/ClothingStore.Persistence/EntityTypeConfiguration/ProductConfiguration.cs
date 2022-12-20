@@ -12,7 +12,7 @@ internal class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.HasIndex(product => product.ProductId).IsUnique();
         builder.Property(product => product.ProductName).IsRequired().HasMaxLength(30);
         builder.Property(product => product.Description).HasMaxLength(250);
-        builder.Property(product => product.Price).HasPrecision(9, 3);
+        builder.Property(product => product.Price).HasPrecision(9, 2);
 
         builder.HasOne(product => product.User).WithMany(user => user.Products);
         builder.HasOne(product => product.Brand).WithMany(brand => brand.Products);
