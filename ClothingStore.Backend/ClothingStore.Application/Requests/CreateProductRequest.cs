@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Request
+namespace ClothingStore.Application.Requests
 {
     public class CreateProductRequest
     {

@@ -20,11 +20,4 @@
     <ProjectReference Include="..\ClothingStore.Domain\ClothingStore.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="AutoMapper\Profiles\" />
-    <Folder Include="Mediator\Product\Commands\DeleteProduct\" />
-    <Folder Include="Mediator\Product\Queries\GetAllProducts\" />
-    <Folder Include="Mediator\Product\Queries\GetProductDetail\" />
-  </ItemGroup>
-
 </Project>

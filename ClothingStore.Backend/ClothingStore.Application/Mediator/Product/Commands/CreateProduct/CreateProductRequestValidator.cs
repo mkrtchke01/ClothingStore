@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Request;
+using ClothingStore.Application.Requests;
 using FluentValidation;
 
-namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Validation
+namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct
 {
     public class CreateProductRequestValidator : AbstractValidator<CreateProductRequest>
     {

@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using AutoMapper;
 using ClothingStore.Application.Interfaces;
-using ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Validation;
 using ClothingStore.Domain;
 using FluentValidation;
 using MediatR;
@@ -46,7 +45,8 @@ namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct
                 Brand = new Brand()
                 {
                     BrandName = request.CreateProductRequest.BrandName
-                }
+                },
+                CreatedDate = DateTime.Now
             };
             foreach (var seasonName in request.CreateProductRequest.SeasonNames)
             {

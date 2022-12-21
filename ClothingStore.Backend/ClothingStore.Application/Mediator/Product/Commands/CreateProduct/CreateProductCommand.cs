@@ -4,8 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClothingStore.Application.Mediator.Product.Commands.CreateProduct.Request;
 using MediatR;
+using ClothingStore.Application.Requests;
 
 namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct
 {
