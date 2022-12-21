@@ -1,73 +1,62 @@
-﻿using Azure.Core;
-using ClothingStore.Application.Mediator.Product.Commands.CreateProduct;
+﻿using ClothingStore.Application.Mediator.Product.Commands.CreateProduct;
 using ClothingStore.Application.Mediator.Product.Commands.DeleteProduct;
-using ClothingStore.Application.Mediator.Product.Commands.UpdateProduct;
 using ClothingStore.Application.Mediator.Product.Queries.GetAllProducts;
 using ClothingStore.Application.Mediator.Product.Queries.GetProductDetails;
 using ClothingStore.Application.Requests;
-using ClothingStore.Application.Responses;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ClothingStore.WepApi.Controllers
+namespace ClothingStore.WepApi.Controllers;
+
+[Route("api/[controller]")]
+[ApiController]
+public class ProductController : ControllerBase
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProductController : ControllerBase
+    private readonly IMediator _mediator;
+
+    public ProductController(IMediator mediator)
     {
-        private readonly IMediator _mediator;
+        _mediator = mediator;
+    }
 
-        public ProductController(IMediator mediator)
+    [HttpPost("createProduct")]
+    public async Task<IActionResult> CreateProduct(CreateProductRequest createProductRequest)
+    {
+        var validator = new CreateProductRequestValidator();
+        var result = await validator.ValidateAsync(createProductRequest);
+        if (!result.IsValid) return BadRequest(result.Errors);
+        var productId = await _mediator.Send(new CreateProductCommand
         {
-            _mediator = mediator;
-        }
+            CreateProductRequest = createProductRequest
+        });
+        return Ok(productId);
+    }
 
-        [HttpPost("createProduct")]
-        public async Task<IActionResult> CreateProduct(CreateProductRequest createProductRequest)
-        {
-            var validator = new CreateProductRequestValidator();
-            var result = await validator.ValidateAsync(createProductRequest);
-            if (!result.IsValid)
-            {
-                return BadRequest(result.Errors);
-            }
-            var productId = await _mediator.Send(new CreateProductCommand
-            {
-                CreateProductRequest = createProductRequest
-            });
-            return Ok(productId);
-        }
+    [HttpGet("getAllProducts")]
+    public async Task<IActionResult> GetAllProducts()
+    {
+        var products = await _mediator.Send(new GetAllProductsQuery());
+        if (products.Count == 0) return NoContent();
+        return Ok(products);
+    }
 
-        [HttpGet("getAllProducts")]
-        public async Task<IActionResult> GetAllProducts()
+    [HttpGet("getProductDetails/{productId}")]
+    public async Task<IActionResult> GetProductDetails([FromRoute] int productId)
+    {
+        var product = await _mediator.Send(new GetProductDetailsQuery
         {
-            var products = await _mediator.Send(new GetAllProductsQuery());
-            if (products.Count == 0)
-            {
-                return NoContent();
-            }
-            return Ok(products);
-        }
+            ProductId = productId
+        });
+        return Ok(product);
+    }
 
-        [HttpGet("getProductDetails/{productId}")]
-        public async Task<IActionResult> GetProductDetails([FromRoute] int productId)
+    [HttpDelete("deleteProduct/{productId}")]
+    public async Task<IActionResult> DeleteProduct([FromRoute] int productId)
+    {
+        await _mediator.Send(new DeleteProductCommand
         {
-            var product = await _mediator.Send(new GetProductDetailsQuery()
-            {
-                ProductId = productId
-            });
-            return Ok(product);
-        }
-
-        [HttpDelete("deleteProduct/{productId}")]
-        public async Task<IActionResult> DeleteProduct([FromRoute] int productId)
-        {
-            await _mediator.Send(new DeleteProductCommand()
-            {
-                ProductId = productId
-            });
-            return Ok();
-        }
+            ProductId = productId
+        });
+        return Ok();
     }
 }

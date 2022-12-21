@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 
-namespace ClothingStore.Application.Mediator.Product.Commands.DeleteProduct
+namespace ClothingStore.Application.Mediator.Product.Commands.DeleteProduct;
+
+public class DeleteProductCommand : IRequest
 {
-    public class DeleteProductCommand : IRequest
-    {
-        public int ProductId { get; set; }
-    }
+    public int ProductId { get; set; }
 }
