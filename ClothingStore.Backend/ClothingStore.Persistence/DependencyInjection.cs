@@ -1,4 +1,4 @@
-﻿using ClothingStore.Application.Interfaces;
+﻿using ClothingStore.Persistence.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

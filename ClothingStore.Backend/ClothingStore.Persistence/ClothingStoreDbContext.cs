@@ -1,11 +1,12 @@
-﻿using ClothingStore.Application.Interfaces;
-using ClothingStore.Domain;
+﻿using ClothingStore.Domain;
 using ClothingStore.Persistence.EntityTypeConfiguration;
+using ClothingStore.Persistence.Interfaces;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClothingStore.Persistence;
 
-public class ClothingStoreDbContext : DbContext, IClothingStoreDbContext
+public class ClothingStoreDbContext : IdentityDbContext<User>, IClothingStoreDbContext
 {
     public ClothingStoreDbContext(DbContextOptions<ClothingStoreDbContext> options)
         : base(options)

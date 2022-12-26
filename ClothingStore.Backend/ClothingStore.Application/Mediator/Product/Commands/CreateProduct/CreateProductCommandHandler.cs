@@ -1,5 +1,5 @@
-﻿using ClothingStore.Application.Interfaces;
-using ClothingStore.Domain;
+﻿using ClothingStore.Domain;
+using ClothingStore.Persistence.Interfaces;
 using MediatR;
 
 namespace ClothingStore.Application.Mediator.Product.Commands.CreateProduct;

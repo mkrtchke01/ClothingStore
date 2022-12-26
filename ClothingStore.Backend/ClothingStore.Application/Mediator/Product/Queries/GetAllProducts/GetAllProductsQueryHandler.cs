@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using ClothingStore.Application.Interfaces;
 using ClothingStore.Application.Responses;
+using ClothingStore.Persistence.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

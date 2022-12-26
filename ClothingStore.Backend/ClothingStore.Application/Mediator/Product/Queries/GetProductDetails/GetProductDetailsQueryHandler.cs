@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using ClothingStore.Application.Common.Exceptions;
-using ClothingStore.Application.Interfaces;
 using ClothingStore.Application.Responses;
+using ClothingStore.Persistence.Interfaces;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 

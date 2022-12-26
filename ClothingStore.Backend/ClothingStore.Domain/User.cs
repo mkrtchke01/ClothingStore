@@ -1,10 +1,9 @@
-﻿namespace ClothingStore.Domain;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class User : BaseModel
+namespace ClothingStore.Domain;
+
+public class User : IdentityUser
 {
-    public int UserId { get; set; }
-    public string UserName { get; set; }
-    public string PhoneNumber { get; set; }
     public int LocationId { get; set; }
     public Location Location { get; set; }
     public ICollection<Product> Products { get; set; }
