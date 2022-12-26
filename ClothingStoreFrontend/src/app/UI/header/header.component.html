@@ -6,8 +6,11 @@
         <div class="header-block center-block" >
             <button class="btn" routerLink="">Каталог</button>
         </div>
-        <div class="header-block end-block" >
+        <div *ngIf="authService.checkIsAuthorithed();" class="header-block end-block" >
             <button class="btn">Мои продукты</button>
+            <button class="btn" (click)="logoutClick();">Выйти</button>
+        </div>
+        <div *ngIf="!authService.checkIsAuthorithed();" class="header-block end-block" >
             <button class="btn" routerLink="/SignIn">Войти</button>
         </div>
     </div>

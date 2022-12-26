@@ -10,17 +10,19 @@ import { Register } from '../models/register';
 export class AuthService {
 
   token: any
-  tokenString: string
+  accessToken: string
 
   constructor(private http: HttpClient, private router: Router) { }
 
-  readonly apiUrl = 'https://localhost:7242/api/Account'
+  readonly apiUrl = 'https://localhost:7190/api/Account'
 
   login(login: Login){
     return this.http.post(this.apiUrl + '/SignIn', login).subscribe(data=>{
+      console.log(data)
       this.token = data
-      this.tokenString = this.token.token
-      localStorage.setItem('token', this.tokenString)
+      this.accessToken = this.token.accessToken
+      console.log(this.accessToken)
+      localStorage.setItem('token', this.accessToken)
       this.router.navigate([''])
     })
   }
@@ -28,8 +30,8 @@ export class AuthService {
   register(reg: Register){
     return this.http.post(this.apiUrl + '/SignUp', reg).subscribe(data=>{
       this.token = data
-      this.tokenString = this.token.token
-      localStorage.setItem('token', this.tokenString)
+      this.accessToken = this.token.accessToken
+      localStorage.setItem('token', this.accessToken)
       this.router.navigate([''])
     })
   }

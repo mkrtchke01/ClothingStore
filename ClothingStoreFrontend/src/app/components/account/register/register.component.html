@@ -2,17 +2,17 @@
 <form action="" class="border border-dark rounded w-50 container bg-light mt-5 center-items">
     <div class="row p-4">
         <h3 class="text-center">Регистрация</h3>
-        <input type="text" class="mt-3 form-control" placeholder="Имя пользователя">
-        <input type="password" class="mt-3 form-control" placeholder="Пароль">
-        <input type="password" class="mt-3 form-control" placeholder="Повторите пароль">
+        <input type="text" class="mt-3 form-control" placeholder="Имя пользователя" [(ngModel)]="registerModel.userName" name="userName">
+        <input type="password" class="mt-3 form-control" placeholder="Пароль" [(ngModel)]="registerModel.password" name="password">
+        <input type="password" class="mt-3 form-control" placeholder="Повторите пароль" [(ngModel)]="registerModel.passwordConfirm" name="passwordConfirm">
         <div class="container">
             <div class="row">
-                <input type="text" class="mt-3 form-control col" placeholder="Страна">
-                <input type="text" class="mt-3 form-control col" placeholder="Город">
-                <input type="text" class="mt-3 form-control col" placeholder="Индекс">
+                <input type="text" class="mt-3 form-control col" placeholder="Страна" [(ngModel)]="registerModel.country" name="country">
+                <input type="text" class="mt-3 form-control col" placeholder="Город" [(ngModel)]="registerModel.city" name="city">
+                <input type="text" class="mt-3 form-control col" placeholder="Индекс" [(ngModel)]="registerModel.index" name="index">
             </div>
         </div>
-        <button class="btn btn-outline-dark mt-3">Зарегестрироваться</button>
-        <p class="text-center mt-4">Есть аккаунт? <a routerLink="/login">Вход</a></p>
+        <button class="btn btn-outline-dark mt-3" (click)="register()">Зарегестрироваться</button>
+        <p class="text-center mt-4">Есть аккаунт? <a routerLink="/SignIn">Вход</a></p>
     </div>
 </form>
