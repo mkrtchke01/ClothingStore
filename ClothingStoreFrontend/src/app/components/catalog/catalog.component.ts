@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from 'src/app/shared/models/product';
+import { CatalogService } from 'src/app/shared/services/catalog.service';
 
 @Component({
   selector: 'app-catalog',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CatalogComponent implements OnInit {
 
-  constructor() { }
+  products : Product[]
+
+  constructor(private catalogService : CatalogService) { }
 
   ngOnInit(): void {
+    this.getAllProducts();
+  }
+
+  getAllProducts(){
+    this.catalogService.getAllProducts().subscribe(data => {
+      this.products = data;
+    });
   }
 
 }

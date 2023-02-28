@@ -13,7 +13,7 @@ public class ClothingStoreDbContext : IdentityDbContext<User>, IClothingStoreDbC
     {
     }
 
-    public DbSet<User> Users { get; set; }
+    public override DbSet<User> Users { get; set; }
     public DbSet<Location> Locations { get; set; }
     public DbSet<Season> Seasons { get; set; }
     public DbSet<Gender> Genders { get; set; }
