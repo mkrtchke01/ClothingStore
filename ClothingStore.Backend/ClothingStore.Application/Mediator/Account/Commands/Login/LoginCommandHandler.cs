@@ -27,8 +27,8 @@ namespace ClothingStore.Application.Mediator.Account.Commands.Login
             if (user == null || !result.Succeeded) throw new NotFoundException(nameof(User), user);
 
             var token = new TokenResponse();
-            token.AccessToken = await _tokenService.GetAccessTokenAsync(user);
-
+            token.AccessToken = await _tokenService.GenerateAccessTokenAsync(user);
+            token.RefreshToken = _tokenService.GenerateRefreshToken();
             return token;
         }
     }
