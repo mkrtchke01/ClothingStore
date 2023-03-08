@@ -32,7 +32,7 @@ namespace ClothingStore.Application.Common.Jwt
             var refreshToken = Convert.ToBase64String( tokenByte );
             return refreshToken;
         }
-        private ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
+        public ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
         {
             var tokenValidationParameters = new TokenValidationParameters
             {

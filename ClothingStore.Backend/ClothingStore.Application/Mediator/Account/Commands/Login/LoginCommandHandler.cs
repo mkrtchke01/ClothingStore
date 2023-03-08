@@ -26,9 +26,13 @@ namespace ClothingStore.Application.Mediator.Account.Commands.Login
             var result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
             if (user == null || !result.Succeeded) throw new NotFoundException(nameof(User), user);
 
+            var refreshToken = _tokenService.GenerateRefreshToken();
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(1);
+
             var token = new TokenResponse();
             token.AccessToken = await _tokenService.GenerateAccessTokenAsync(user);
-            token.RefreshToken = _tokenService.GenerateRefreshToken();
+            token.RefreshToken = refreshToken;
             return token;
         }
     }

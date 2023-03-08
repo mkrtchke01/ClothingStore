@@ -30,12 +30,17 @@ namespace ClothingStore.Application.Mediator.Account.Commands.Register
                     Index = request.Index
                 }
             };
+            var refreshToken = _tokenService.GenerateRefreshToken();
+            user.RefreshToken = refreshToken;
+            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(1);
             var result = await _userManager.CreateAsync(user, request.Password);
             if (!result.Succeeded) throw new NotFoundException(nameof(User), user);
 
-            var token = new TokenResponse();
-            token.AccessToken = await _tokenService.GenerateAccessTokenAsync(user);
-            token.RefreshToken = _tokenService.GenerateRefreshToken();
+            var token = new TokenResponse()
+            {
+                AccessToken = await _tokenService.GenerateAccessTokenAsync(user),
+                RefreshToken = refreshToken
+            };
             return token;
         }
     }

@@ -1,9 +1,12 @@
-﻿using ClothingStore.Application.Mediator.Account.Commands.Login;
+﻿using ClothingStore.Application.Common.Jwt;
+using ClothingStore.Application.Mediator.Account.Commands.Login;
 using ClothingStore.Application.Mediator.Account.Commands.Register;
 using ClothingStore.Application.Requests;
 using ClothingStore.Application.Responses;
+using ClothingStore.Domain;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ClothingStore.WepApi.Controllers
@@ -13,30 +16,34 @@ namespace ClothingStore.WepApi.Controllers
     public class AccountController : ClothingStoreControllerBase
     {
         private readonly IMediator _mediator;
+        private readonly ITokenService _tokenService;
+        private readonly UserManager<User> _userManager;
 
-        public AccountController(IMediator mediator)
+        public AccountController(IMediator mediator, ITokenService tokenService, UserManager<User> userManager)
         {
             _mediator = mediator;
+            _tokenService = tokenService;
+            _userManager = userManager;
         }
 
         [HttpPost]
         [AllowAnonymous]
-        [Route("SignIn")]
+        [Route("signIn")]
         public async Task<IActionResult> SignIn(LoginRequest loginRequest)
         {
-            var token = await _mediator.Send(new LoginCommand
+            var result = await _mediator.Send(new LoginCommand
             {
                 UserName = loginRequest.UserName,
                 Password = loginRequest.Password
             });
-            return Ok(token);
+            return Ok(result);
         }
         [HttpPost]
         [AllowAnonymous]
-        [Route("SignUp")]
+        [Route("signUp")]
         public async Task<IActionResult> SignUp(RegisterRequest registerRequest)
         {
-            var token = await _mediator.Send(new RegisterCommand
+            var result = await _mediator.Send(new RegisterCommand
             {
                 UserName = registerRequest.UserName,
                 Password = registerRequest.Password,
@@ -46,7 +53,30 @@ namespace ClothingStore.WepApi.Controllers
                 Index = registerRequest.Index
             });
             
-            return Ok(token);
+            return Ok(result);
+        }
+
+        [HttpPost("refresh")]
+        public async Task<IActionResult> Refresh(TokenResponse tokenResponse)
+        {
+            if (tokenResponse == null)
+            {
+                return BadRequest("Failed request from client");
+            }
+            var accessToken = tokenResponse.AccessToken;
+            var principal = _tokenService.GetPrincipalFromExpiredToken(accessToken);
+            var userName = principal.Identity.Name;
+            var user = await _userManager.FindByIdAsync(UserId);
+
+            var newAccessToken = await _tokenService.GenerateAccessTokenAsync(user);
+            var newRefreshToken = _tokenService.GenerateRefreshToken();
+            user.RefreshToken = newRefreshToken;
+            await _userManager.UpdateAsync(user);
+            return Ok(new TokenResponse()
+            {
+                AccessToken = newAccessToken,
+                RefreshToken = newRefreshToken
+            });
         }
 
     }
