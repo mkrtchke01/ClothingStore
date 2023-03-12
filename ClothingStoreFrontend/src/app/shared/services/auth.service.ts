@@ -45,7 +45,6 @@ export class AuthService {
   }
 
   renewToken(token: TokenModel){
-    console.log("renewToken")
     return this.http.post<any>(this.apiUrl + '/refresh', token)
   }
 }
