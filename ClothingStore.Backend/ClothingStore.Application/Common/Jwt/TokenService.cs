@@ -19,7 +19,7 @@ namespace ClothingStore.Application.Common.Jwt
                     JwtOptions.Issuer,
                     JwtOptions.Audience,
                     claims,
-                    expires: JwtOptions.Lifetime,
+                    expires: DateTime.Now.AddSeconds(20),
                     signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
                 )
             );
@@ -34,6 +34,7 @@ namespace ClothingStore.Application.Common.Jwt
         }
         public ClaimsPrincipal GetPrincipalFromExpiredToken(string token)
         {
+            var jwtOptions = new JwtOptions();
             var tokenValidationParameters = new TokenValidationParameters
             {
                 ValidateAudience = false,
@@ -57,7 +58,8 @@ namespace ClothingStore.Application.Common.Jwt
         {
             var claims = new List<Claim>
             {
-                new(JwtRegisteredClaimNames.Sub, user.Id)
+                new(JwtRegisteredClaimNames.Sub, user.Id),
+                new(ClaimTypes.Name, user.UserName)
             };
             return claims;
         }

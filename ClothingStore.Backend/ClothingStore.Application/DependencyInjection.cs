@@ -27,16 +27,17 @@ public static class DependencyInjection
             .AddJwtBearer(options =>
             {
                 options.SaveToken = true;
-                options.RequireHttpsMetadata = true;
+                options.RequireHttpsMetadata = false;
                 options.TokenValidationParameters = new TokenValidationParameters
                 {
-                    ValidateIssuer = true,
+                    ValidateIssuer = false,
                     ValidIssuer = JwtOptions.Issuer,
-                    ValidateAudience = true,
+                    ValidateAudience = false,
                     ValidAudience = JwtOptions.Audience,
                     ValidateLifetime = true,
                     IssuerSigningKey = JwtOptions.GetSymmetricSecurityKey(),
-                    ValidateIssuerSigningKey = true
+                    ValidateIssuerSigningKey = true,
+                    ClockSkew = TimeSpan.Zero
                 };
             });
         var builder = services.AddIdentityCore<User>(options =>

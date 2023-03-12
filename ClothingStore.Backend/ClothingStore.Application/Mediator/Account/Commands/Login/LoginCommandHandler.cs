@@ -28,11 +28,13 @@ namespace ClothingStore.Application.Mediator.Account.Commands.Login
 
             var refreshToken = _tokenService.GenerateRefreshToken();
             user.RefreshToken = refreshToken;
-            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(1);
-
-            var token = new TokenResponse();
-            token.AccessToken = await _tokenService.GenerateAccessTokenAsync(user);
-            token.RefreshToken = refreshToken;
+            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(20);
+            await _userManager.UpdateAsync(user);
+            var token = new TokenResponse()
+            {
+                AccessToken = await _tokenService.GenerateAccessTokenAsync(user),
+                RefreshToken = refreshToken
+            };
             return token;
         }
     }

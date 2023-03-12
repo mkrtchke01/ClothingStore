@@ -57,6 +57,7 @@ namespace ClothingStore.WepApi.Controllers
         }
 
         [HttpPost("refresh")]
+        [AllowAnonymous]
         public async Task<IActionResult> Refresh(TokenResponse tokenResponse)
         {
             if (tokenResponse == null)
@@ -66,17 +67,18 @@ namespace ClothingStore.WepApi.Controllers
             var accessToken = tokenResponse.AccessToken;
             var principal = _tokenService.GetPrincipalFromExpiredToken(accessToken);
             var userName = principal.Identity.Name;
-            var user = await _userManager.FindByIdAsync(UserId);
+            var user = await _userManager.FindByNameAsync(userName);
 
-            var newAccessToken = await _tokenService.GenerateAccessTokenAsync(user);
             var newRefreshToken = _tokenService.GenerateRefreshToken();
             user.RefreshToken = newRefreshToken;
+            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(20);
             await _userManager.UpdateAsync(user);
-            return Ok(new TokenResponse()
+            var token = new TokenResponse()
             {
-                AccessToken = newAccessToken,
+                AccessToken = await _tokenService.GenerateAccessTokenAsync(user),
                 RefreshToken = newRefreshToken
-            });
+            };
+            return Ok(token);
         }
 
     }

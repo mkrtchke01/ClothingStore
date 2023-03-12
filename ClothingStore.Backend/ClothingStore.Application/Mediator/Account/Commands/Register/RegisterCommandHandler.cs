@@ -32,7 +32,7 @@ namespace ClothingStore.Application.Mediator.Account.Commands.Register
             };
             var refreshToken = _tokenService.GenerateRefreshToken();
             user.RefreshToken = refreshToken;
-            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(1);
+            user.RefreshTokenExpiryTime = DateTime.Now.AddSeconds(20);
             var result = await _userManager.CreateAsync(user, request.Password);
             if (!result.Succeeded) throw new NotFoundException(nameof(User), user);
 

@@ -25,7 +25,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Description = "JWT Authorization header using the Bearer scheme",
         Name = "Authorization",
-        In = ParameterLocation.Cookie,
+        In = ParameterLocation.Header,
         Type = SecuritySchemeType.Http,
         BearerFormat = "JWT",
         Scheme = "Bearer"
