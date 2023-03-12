@@ -17,17 +17,14 @@ export class AuthService {
 
   login(login: Login){
     return this.http.post(this.apiUrl + '/signIn', login).subscribe((data:any)=>{
-      console.log(data.accessToken)
-      localStorage.setItem('accessToken', data.accessToken)
-      localStorage.setItem('refreshToken', data.refreshToken)
+      this.setTokens(data);
       this.router.navigate([''])
     })
   }
 
   register(reg: Register){
     return this.http.post(this.apiUrl + '/signUp', reg).subscribe((data:any)=>{
-      localStorage.setItem('accessToken', data.accessToken)
-      localStorage.setItem('refreshToken', data.refreshToken)
+      this.setTokens(data);
       this.router.navigate([''])
     })
   }
@@ -36,12 +33,15 @@ export class AuthService {
     return localStorage.getItem('accessToken') != null
   }
 
-  getAccessToken(){
-    return localStorage.getItem('accessToken') || ''
+  getTokens(){
+    let tokenModel: TokenModel = new TokenModel()
+    tokenModel.accessToken = localStorage.getItem('accessToken') || ''
+    tokenModel.refreshToken = localStorage.getItem('refreshToken') || ''
+    return tokenModel
   }
-
-  getRefreshToken(){
-    return localStorage.getItem('refreshToken') || ''
+  setTokens(tokenModel : TokenModel){
+    localStorage.setItem('accessToken', tokenModel.accessToken)
+    localStorage.setItem('refreshToken', tokenModel.refreshToken)
   }
 
   renewToken(token: TokenModel){

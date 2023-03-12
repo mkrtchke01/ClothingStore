@@ -4,7 +4,6 @@ using ClothingStore.Application.Mediator.Product.Queries.GetAllProducts;
 using ClothingStore.Application.Mediator.Product.Queries.GetProductDetails;
 using ClothingStore.Application.Requests;
 using MediatR;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ClothingStore.WepApi.Controllers;

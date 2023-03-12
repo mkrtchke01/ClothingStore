@@ -1,11 +1,10 @@
 ﻿using ClothingStore.Domain;
 using Microsoft.EntityFrameworkCore;
 
-namespace ClothingStore.Persistence.Interfaces
+namespace ClothingStore.Persistence.Interfaces;
+
+public interface IClothingStoreDbContext
 {
-    public interface IClothingStoreDbContext
-    {
-        DbSet<Product> Products { get; set; }
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
-    }
+    DbSet<Product> Products { get; set; }
+    Task<int> SaveChangesAsync(CancellationToken cancellationToken);
 }

@@ -1,5 +1,7 @@
 ﻿using System.Reflection;
 using ClothingStore.Application.Common.Jwt;
+using ClothingStore.Application.Services;
+using ClothingStore.Application.Services.Interfces;
 using ClothingStore.Domain;
 using ClothingStore.Persistence;
 using FluentValidation;
@@ -17,7 +19,7 @@ public static class DependencyInjection
     {
         services.AddMediatR(Assembly.GetExecutingAssembly());
         services.AddAutoMapper(Assembly.GetExecutingAssembly());
-        services.AddValidatorsFromAssemblies(new[] {Assembly.GetExecutingAssembly()});
+        services.AddValidatorsFromAssemblies(new[] { Assembly.GetExecutingAssembly() });
         services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
