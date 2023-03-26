@@ -8,7 +8,11 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddPersistence(this IServiceCollection services, string connectionString)
     {
-        services.AddDbContext<ClothingStoreDbContext>(options => options.UseSqlServer(connectionString));
+        services.AddDbContext<ClothingStoreDbContext>(options =>
+        {
+            options.UseSqlServer(connectionString);
+            options.EnableSensitiveDataLogging();
+        });
         services.AddScoped<IClothingStoreDbContext, ClothingStoreDbContext>();
 
         return services;

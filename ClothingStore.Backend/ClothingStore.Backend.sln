@@ -11,13 +11,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45136499
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{473B1B68-CEFB-4E19-85AB-B13F2FC4F852}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Domain", "ClothingStore.Domain\ClothingStore.Domain.csproj", "{C65C1C95-D677-4437-BBFA-FED20949C9CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothingStore.Domain", "ClothingStore.Domain\ClothingStore.Domain.csproj", "{C65C1C95-D677-4437-BBFA-FED20949C9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Application", "ClothingStore.Application\ClothingStore.Application.csproj", "{4DEB9060-CBD0-426F-A1F0-15C06D981896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothingStore.Application", "ClothingStore.Application\ClothingStore.Application.csproj", "{4DEB9060-CBD0-426F-A1F0-15C06D981896}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Persistence", "ClothingStore.Persistence\ClothingStore.Persistence.csproj", "{DA042FCA-141A-468C-93D9-BFD34EC627E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothingStore.Persistence", "ClothingStore.Persistence\ClothingStore.Persistence.csproj", "{DA042FCA-141A-468C-93D9-BFD34EC627E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.WepApi", "ClothingStore.WepApi\ClothingStore.WepApi.csproj", "{B8A5D3AA-7829-44E5-AC04-B8984F20D9E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClothingStore.WepApi", "ClothingStore.WepApi\ClothingStore.WepApi.csproj", "{B8A5D3AA-7829-44E5-AC04-B8984F20D9E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
