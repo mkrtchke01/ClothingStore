@@ -1,9 +1,11 @@
 ﻿using ClothingStore.Application.Dtos;
 using ClothingStore.Application.Mediator.Account.Commands.Login;
 using ClothingStore.Application.Mediator.Account.Commands.Register;
+using ClothingStore.Application.Mediator.Product.Commands.CreateProduct;
 using ClothingStore.Application.Requests;
 using ClothingStore.Application.Services.Interfces;
 using ClothingStore.Domain;
+using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -31,6 +33,9 @@ public class AccountController : ClothingStoreControllerBase
     [Route("signIn")]
     public async Task<IActionResult> SignIn(LoginRequest loginRequest)
     {
+        var validator = new LoginRequestValidator();
+        var validateResult = await validator.ValidateAsync(loginRequest);
+        if (!validateResult.IsValid) return BadRequest(validateResult.Errors);
         var result = await _mediator.Send(new LoginCommand
         {
             UserName = loginRequest.UserName,
@@ -44,6 +49,9 @@ public class AccountController : ClothingStoreControllerBase
     [Route("signUp")]
     public async Task<IActionResult> SignUp(RegisterRequest registerRequest)
     {
+        var validator = new RegisterRequestValidator();
+        var validateResult = await validator.ValidateAsync(registerRequest);
+        if (!validateResult.IsValid) return BadRequest(validateResult.Errors);
         var result = await _mediator.Send(new RegisterCommand
         {
             UserName = registerRequest.UserName,

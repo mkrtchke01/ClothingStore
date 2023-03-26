@@ -44,7 +44,7 @@ public static class DependencyInjection
             });
         var builder = services.AddIdentityCore<User>(options =>
             {
-                options.Password.RequiredLength = 4;
+                options.Password.RequiredLength = 7;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireLowercase = false;
                 options.Password.RequireUppercase = false;

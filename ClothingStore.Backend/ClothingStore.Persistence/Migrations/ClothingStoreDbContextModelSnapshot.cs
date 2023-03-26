@@ -56,97 +56,97 @@ namespace ClothingStore.Persistence.Migrations
                         {
                             BrandId = 1,
                             BrandName = "Adidas",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6306),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7374),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6315)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7387)
                         },
                         new
                         {
                             BrandId = 2,
                             BrandName = "Puma",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6317),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7390),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6317)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7390)
                         },
                         new
                         {
                             BrandId = 3,
                             BrandName = "Nike",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6318),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7391),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6319)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7391)
                         },
                         new
                         {
                             BrandId = 4,
                             BrandName = "Diadora",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6319),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7392),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6320)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7392)
                         },
                         new
                         {
                             BrandId = 5,
                             BrandName = "The North Face",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6320),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7393),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6321)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7394)
                         },
                         new
                         {
                             BrandId = 6,
                             BrandName = "Fred Perry",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6322),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7395),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6323)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7396)
                         },
                         new
                         {
                             BrandId = 7,
                             BrandName = "Asics",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6323),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7396),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6324)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7397)
                         },
                         new
                         {
                             BrandId = 8,
                             BrandName = "Vans",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6324),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7397),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6324)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7398)
                         },
                         new
                         {
                             BrandId = 9,
                             BrandName = "Reebook",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6325),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7434),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6325)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7435)
                         },
                         new
                         {
                             BrandId = 10,
                             BrandName = "Converse",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6327),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7437),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6327)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7437)
                         },
                         new
                         {
                             BrandId = 11,
                             BrandName = "ТВОЕ",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6327),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7438),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6328)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7438)
                         },
                         new
                         {
                             BrandId = 12,
                             BrandName = "Mark Formelle",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6328),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7439),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6329)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7439)
                         });
                 });
 
@@ -184,97 +184,97 @@ namespace ClothingStore.Persistence.Migrations
                         {
                             ColorId = 1,
                             ColorName = "Белый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6388),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7524),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6389)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7524)
                         },
                         new
                         {
                             ColorId = 2,
                             ColorName = "Черный",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6408),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7527),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6409)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7527)
                         },
                         new
                         {
                             ColorId = 3,
                             ColorName = "Желтый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6409),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7528),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6409)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7528)
                         },
                         new
                         {
                             ColorId = 4,
                             ColorName = "Коричневый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6410),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7529),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6410)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7529)
                         },
                         new
                         {
                             ColorId = 5,
                             ColorName = "Розовый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6414),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7529),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6414)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7530)
                         },
                         new
                         {
                             ColorId = 6,
                             ColorName = "Бежевый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6416),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7531),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6416)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7532)
                         },
                         new
                         {
                             ColorId = 7,
                             ColorName = "Серый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6417),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7532),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6417)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7532)
                         },
                         new
                         {
                             ColorId = 8,
                             ColorName = "Зеленый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6417),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7533),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6418)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7533)
                         },
                         new
                         {
                             ColorId = 9,
                             ColorName = "Синий",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6418),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7534),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6419)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7534)
                         },
                         new
                         {
                             ColorId = 10,
                             ColorName = "Фиолетовый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6420),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7536),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6420)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7536)
                         },
                         new
                         {
                             ColorId = 11,
                             ColorName = "Красный",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6421),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7537),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6421)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7537)
                         },
                         new
                         {
                             ColorId = 12,
                             ColorName = "Оранжевый",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6421),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7538),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6422)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7538)
                         });
                 });
 
@@ -311,18 +311,18 @@ namespace ClothingStore.Persistence.Migrations
                         new
                         {
                             GenderId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6472),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7591),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             GenderName = "Male",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6473)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7592)
                         },
                         new
                         {
                             GenderId = 2,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6476),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7595),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             GenderName = "Female",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6476)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7595)
                         });
                 });
 
@@ -370,50 +370,50 @@ namespace ClothingStore.Persistence.Migrations
                             LocationId = 1,
                             City = "Витебск",
                             Country = "Беларусь",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6566),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7695),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Index = "210021",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6566)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7696)
                         },
                         new
                         {
                             LocationId = 2,
                             City = "Москва",
                             Country = "Россия",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6571),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7698),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Index = "210021",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6571)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7699)
                         },
                         new
                         {
                             LocationId = 3,
                             City = "Киев",
                             Country = "Украина",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6572),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7700),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Index = "210021",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6572)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7700)
                         },
                         new
                         {
                             LocationId = 4,
                             City = "Могилев",
                             Country = "Беларусь",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6573),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7701),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Index = "210021",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6573)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7701)
                         },
                         new
                         {
                             LocationId = 5,
                             City = "Минск",
                             Country = "Беларусь",
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6574),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7702),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Index = "210021",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6575)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7702)
                         });
                 });
 
@@ -480,49 +480,49 @@ namespace ClothingStore.Persistence.Migrations
                         {
                             ProductId = 1,
                             BrandId = 10,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6750),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7934),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Практичная и прочная обувь.",
                             GenderId = 1,
                             Image = "https://avatars.mds.yandex.net/get-mpic/7543961/img_id2876985684977519291.jpeg/orig",
                             Price = 80m,
                             ProductName = "Кеды Converse",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6751),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7935),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 2,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6753),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7938),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6753),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7938),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 3,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6754),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7939),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6755),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7940),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 4,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6755),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7940),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
@@ -536,420 +536,420 @@ namespace ClothingStore.Persistence.Migrations
                         {
                             ProductId = 5,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6756),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7941),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6757),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7942),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 6,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6758),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7943),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6758),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7944),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 7,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6759),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7945),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6760),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7945),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 8,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6778),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7947),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6779),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7948),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 9,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6780),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7949),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6780),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7949),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 10,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6782),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7951),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6782),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7951),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 11,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6783),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7952),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6783),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7952),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 12,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6784),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7954),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6784),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7955),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 13,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6785),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7956),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6786),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7956),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 14,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6786),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7957),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6787),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7958),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 15,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6788),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7960),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6788),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7960),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 16,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6789),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7961),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6789),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7962),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 17,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6790),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7965),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6790),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7965),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 18,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6793),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7967),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6794),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7967),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 19,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6796),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7968),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6796),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7969),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 20,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6797),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7970),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6797),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7970),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 21,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6798),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7972),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6799),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7972),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 22,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6799),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7973),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6800),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7974),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 23,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6801),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7975),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6801),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7975),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 24,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6802),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7976),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6802),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7976),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 25,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6803),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7977),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6806),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7977),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 26,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6807),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7978),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6807),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7979),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 27,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6808),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7980),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6808),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7980),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 28,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6809),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7981),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6809),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7981),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 29,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6810),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7982),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6811),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7983),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 30,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6812),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7984),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6812),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7984),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 31,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6813),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7985),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6813),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7985),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 32,
                             BrandId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6814),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7986),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Основная часть кроссовок изготовлена из устойчивых к износу материалов.",
                             GenderId = 2,
                             Image = "https://basket-10.wb.ru/vol1492/part149253/149253341/images/big/3.jpg",
                             Price = 175m,
                             ProductName = "Кроссовки Adidas",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6814),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7987),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 33,
                             BrandId = 6,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6815),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7987),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Изделие из фактурного хлопкового трикотажа украшено вышивкой с принтом на груди",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLABL206701_17128948_1_v1_2x.jpg",
                             Price = 289m,
                             ProductName = "Футболка Fred Perry",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6815),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7988),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         },
                         new
                         {
                             ProductId = 34,
                             BrandId = 7,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6817),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7990),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Description = "Кроссовки выполнены из сетчатого текстиля, растягивается при естественном движении стопы и создает удобную посадку. ",
                             GenderId = 1,
                             Image = "https://a.lmcdn.ru/product/R/T/RTLACH890601_19173162_1_v1.jpg",
                             Price = 486m,
                             ProductName = "Кроссовки Asics",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6818),
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7990),
                             UserId = "3046bb27-a9f9-4cfb-87ee-0853cae48701"
                         });
                 });
@@ -987,42 +987,42 @@ namespace ClothingStore.Persistence.Migrations
                         new
                         {
                             SeasonId = 1,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6521),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7646),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonName = "Демисезон",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6521)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7647)
                         },
                         new
                         {
                             SeasonId = 2,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6523),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7648),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonName = "Весна",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6524)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7649)
                         },
                         new
                         {
                             SeasonId = 3,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6524),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7649),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonName = "Зима",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6524)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7650)
                         },
                         new
                         {
                             SeasonId = 4,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6525),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7650),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonName = "Осень",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6525)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7651)
                         },
                         new
                         {
                             SeasonId = 5,
-                            CreatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6526),
+                            CreatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7651),
                             DeletedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             SeasonName = "Лето",
-                            UpdatedDate = new DateTime(2023, 3, 26, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6526)
+                            UpdatedDate = new DateTime(2023, 3, 26, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7652)
                         });
                 });
 
@@ -1112,10 +1112,10 @@ namespace ClothingStore.Persistence.Migrations
                             EmailConfirmed = false,
                             LocationId = 1,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEP9tfDrMeXhTcSNOK4ZvChJUmRJItt9sErtW/Kv2+5qH1cWaXHwHQAstiixTLIBh8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELXiNd8dU7e8G/cZwkZYkUwRQI1W98Nfl4ZeYH/ax0gk1kuzcvSY4tf2hP4y8o39cw==",
                             PhoneNumberConfirmed = false,
                             RefreshToken = "7iK7mWYVQgEriP+Zoia/UfiMKon/4cqUijRncBrplJpt1C0CJDZkstZsXTtnF4SMsv9Wfv+HU2fErMvHjTPW4g==",
-                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6672),
+                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7808),
                             SecurityStamp = "DKOIJFTBZLFCJCNGXCZ3AZRQ4BZ2K5SA",
                             TwoFactorEnabled = false,
                             UserName = "mkr.e"
@@ -1128,10 +1128,10 @@ namespace ClothingStore.Persistence.Migrations
                             EmailConfirmed = false,
                             LocationId = 2,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEP9tfDrMeXhTcSNOK4ZvChJUmRJItt9sErtW/Kv2+5qH1cWaXHwHQAstiixTLIBh8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELXiNd8dU7e8G/cZwkZYkUwRQI1W98Nfl4ZeYH/ax0gk1kuzcvSY4tf2hP4y8o39cw==",
                             PhoneNumberConfirmed = false,
                             RefreshToken = "7iK7mWYVQgEriP+Zoia/UfiMKon/4cqUijRncBrplJpt1C0CJDZkstZsXTtnF4SMsv9Wfv+HU2fErMvHjTPW4g==",
-                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6681),
+                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7834),
                             SecurityStamp = "DKOIJFTBZLFCJCNGXCZ3AZRQ4BZ2K5SA",
                             TwoFactorEnabled = false,
                             UserName = "Andrey"
@@ -1144,10 +1144,10 @@ namespace ClothingStore.Persistence.Migrations
                             EmailConfirmed = false,
                             LocationId = 3,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEP9tfDrMeXhTcSNOK4ZvChJUmRJItt9sErtW/Kv2+5qH1cWaXHwHQAstiixTLIBh8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELXiNd8dU7e8G/cZwkZYkUwRQI1W98Nfl4ZeYH/ax0gk1kuzcvSY4tf2hP4y8o39cw==",
                             PhoneNumberConfirmed = false,
                             RefreshToken = "7iK7mWYVQgEriP+Zoia/UfiMKon/4cqUijRncBrplJpt1C0CJDZkstZsXTtnF4SMsv9Wfv+HU2fErMvHjTPW4g==",
-                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6687),
+                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7840),
                             SecurityStamp = "DKOIJFTBZLFCJCNGXCZ3AZRQ4BZ2K5SA",
                             TwoFactorEnabled = false,
                             UserName = "Vitali"
@@ -1160,10 +1160,10 @@ namespace ClothingStore.Persistence.Migrations
                             EmailConfirmed = false,
                             LocationId = 4,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEP9tfDrMeXhTcSNOK4ZvChJUmRJItt9sErtW/Kv2+5qH1cWaXHwHQAstiixTLIBh8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELXiNd8dU7e8G/cZwkZYkUwRQI1W98Nfl4ZeYH/ax0gk1kuzcvSY4tf2hP4y8o39cw==",
                             PhoneNumberConfirmed = false,
                             RefreshToken = "7iK7mWYVQgEriP+Zoia/UfiMKon/4cqUijRncBrplJpt1C0CJDZkstZsXTtnF4SMsv9Wfv+HU2fErMvHjTPW4g==",
-                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6694),
+                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7845),
                             SecurityStamp = "DKOIJFTBZLFCJCNGXCZ3AZRQ4BZ2K5SA",
                             TwoFactorEnabled = false,
                             UserName = "Alexandr"
@@ -1176,10 +1176,10 @@ namespace ClothingStore.Persistence.Migrations
                             EmailConfirmed = false,
                             LocationId = 5,
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAEAACcQAAAAEP9tfDrMeXhTcSNOK4ZvChJUmRJItt9sErtW/Kv2+5qH1cWaXHwHQAstiixTLIBh8g==",
+                            PasswordHash = "AQAAAAEAACcQAAAAELXiNd8dU7e8G/cZwkZYkUwRQI1W98Nfl4ZeYH/ax0gk1kuzcvSY4tf2hP4y8o39cw==",
                             PhoneNumberConfirmed = false,
                             RefreshToken = "7iK7mWYVQgEriP+Zoia/UfiMKon/4cqUijRncBrplJpt1C0CJDZkstZsXTtnF4SMsv9Wfv+HU2fErMvHjTPW4g==",
-                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 16, 6, 53, 301, DateTimeKind.Local).AddTicks(6700),
+                            RefreshTokenExpiryTime = new DateTime(2023, 3, 27, 18, 52, 51, 170, DateTimeKind.Local).AddTicks(7853),
                             SecurityStamp = "DKOIJFTBZLFCJCNGXCZ3AZRQ4BZ2K5SA",
                             TwoFactorEnabled = false,
                             UserName = "Vasilisa"

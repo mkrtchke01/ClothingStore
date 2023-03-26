@@ -23,8 +23,8 @@ public class ProductController : ClothingStoreControllerBase
     public async Task<IActionResult> CreateProduct(CreateProductRequest createProductRequest)
     {
         var validator = new CreateProductRequestValidator();
-        var result = await validator.ValidateAsync(createProductRequest);
-        if (!result.IsValid) return BadRequest(result.Errors);
+        var validateResult = await validator.ValidateAsync(createProductRequest);
+        if (!validateResult.IsValid) return BadRequest(validateResult.Errors);
         var productId = await _mediator.Send(new CreateProductCommand
         {
             CreateProductRequest = createProductRequest

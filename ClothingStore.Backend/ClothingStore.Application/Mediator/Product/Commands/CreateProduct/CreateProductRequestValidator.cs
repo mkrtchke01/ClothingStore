@@ -8,16 +8,22 @@ public class CreateProductRequestValidator : AbstractValidator<CreateProductRequ
     public CreateProductRequestValidator()
     {
         RuleFor(createProductRequest =>
-            createProductRequest.ProductName).NotEmpty().MaximumLength(30);
+            createProductRequest.ProductName)
+            .NotEmpty()
+            .MaximumLength(30);
         RuleFor(createProductRequest =>
-            createProductRequest.Description).MaximumLength(250);
+            createProductRequest.Price)
+            .PrecisionScale(9, 2, false);
         RuleFor(createProductRequest =>
-            createProductRequest.Price).PrecisionScale(9, 2, false);
+            createProductRequest.Image)
+            .NotEmpty();
         RuleFor(createProductRequest =>
-            createProductRequest.Image).NotEmpty();
+            createProductRequest.GenderName)
+            .NotEmpty()
+            .MaximumLength(20);
         RuleFor(createProductRequest =>
-            createProductRequest.GenderName).NotEmpty().MaximumLength(20);
-        RuleFor(createProductRequest =>
-            createProductRequest.BrandName).NotEmpty().MaximumLength(35);
+            createProductRequest.BrandName)
+            .NotEmpty()
+            .MaximumLength(35);
     }
 }
