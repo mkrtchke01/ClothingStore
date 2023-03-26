@@ -1,6 +1,7 @@
 ﻿using ClothingStore.Domain;
 using ClothingStore.Persistence.EntityTypeConfiguration;
 using ClothingStore.Persistence.Interfaces;
+using ClothingStore.Persistence.SeedData;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -30,6 +31,15 @@ public class ClothingStoreDbContext : IdentityDbContext<User>, IClothingStoreDbC
         modelBuilder.ApplyConfiguration(new GenderConfiguration());
         modelBuilder.ApplyConfiguration(new ColorConfiguration());
         modelBuilder.ApplyConfiguration(new BrandConfiguration());
+
+        modelBuilder.ApplyConfiguration(new SeedBrands());
+        modelBuilder.ApplyConfiguration(new SeedColors());
+        modelBuilder.ApplyConfiguration(new SeedGenders());
+        modelBuilder.ApplyConfiguration(new SeedSeasons());
+        modelBuilder.ApplyConfiguration(new SeedLocations());
+        modelBuilder.ApplyConfiguration(new SeedUsers());
+        modelBuilder.ApplyConfiguration(new SeedProducts());
+
         base.OnModelCreating(modelBuilder);
     }
 }

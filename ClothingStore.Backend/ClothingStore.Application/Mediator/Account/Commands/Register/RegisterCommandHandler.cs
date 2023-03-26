@@ -34,7 +34,7 @@ internal class RegisterCommandHandler : IRequestHandler<RegisterCommand, TokenDt
         user.RefreshToken = refreshToken;
         user.RefreshTokenExpiryTime = DateTime.Now.AddDays(1);
         var result = await _userManager.CreateAsync(user, request.Password);
-        if (!result.Succeeded) throw new NotFoundException(nameof(User), user);
+        if (!result.Succeeded) throw new Exception();
 
         var token = new TokenDto
         {
